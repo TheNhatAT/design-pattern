@@ -6,4 +6,5 @@ Hand-ons design pattern
 <Nhận dạng các thành phần hay thay đổi trong ứng dụng và tách biệt chúng ra khỏi phần chung của ứng dụng>
 2. Program to an interface, not an implementation <br>
 <Lập trình interface, không phải là một implementation (bản thực thi) - polymorphism>
-3. 
+3. Favor composition over inheritance <br>
+<Ưu tiên composition (kết tập) hơn là inheritance (kế thừa)>
