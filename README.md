@@ -8,3 +8,5 @@ Hand-ons design pattern
 <Lập trình interface, không phải là một implementation (bản thực thi) - polymorphism>
 3. Favor composition over inheritance <br>
 <Ưu tiên composition (kết tập) hơn là inheritance (kế thừa)>
+4. Strive for loosely coupled designs between objects that interact <br>
+<Cố gắng thiết kế sự tương tác của các objects là loosely coupled>
