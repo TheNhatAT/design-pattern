@@ -10,3 +10,5 @@ Hand-ons design pattern
 <Ưu tiên composition (kết tập) hơn là inheritance (kế thừa)>
 4. Strive for loosely coupled designs between objects that interact <br>
 <Cố gắng thiết kế sự tương tác của các objects là loosely coupled>
+5.Classes should be open for extension, but closed for modification.
+<Các classes nên được open để mở rộng (extend), đóng lại (closed) để chỉnh sửa>
