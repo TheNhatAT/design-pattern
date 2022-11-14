@@ -1,0 +1,20 @@
+package factory.implementation.abstract_method;
+
+public abstract class PizzaStore {
+    public Pizza orderPizza(String type) {
+        Pizza pizza;
+
+        pizza = createPizza(type);
+
+        pizza.prepare();
+        pizza.bake();
+        pizza.cut();
+        pizza.box();
+
+        return pizza;
+    }
+
+    // Factory method
+    // abstract Product factoryMethod(String type);
+    protected abstract Pizza createPizza(String type);
+}
