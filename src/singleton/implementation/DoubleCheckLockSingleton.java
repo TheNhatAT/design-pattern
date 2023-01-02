@@ -7,7 +7,7 @@ public class DoubleCheckLockSingleton {
 
     // Only synchronized the first time through
     // volatile: ensure that multiple threads handle the uniqueInstance variable correctly
-    // when it is being init to the Singleton instanc
+    // when it is being init to the Singleton instance
     public static DoubleCheckLockSingleton getInstance() {
         if (uniqueInstance == null) {
             synchronized (DoubleCheckLockSingleton.class) {

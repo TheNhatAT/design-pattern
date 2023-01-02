@@ -15,6 +15,8 @@ managed in the collection.
 
 Definition of Facade Pattern:
 
+
+
 Note:
 1. Adapter Pattern is to alter an interface so that is matches one a client is expecting.
 The intent of the Facade Pattern is to provide a simplified interface to a subsystem.

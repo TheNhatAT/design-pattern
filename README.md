@@ -14,7 +14,9 @@ Head first design pattern
 <Các classes nên được open để mở rộng (extend), đóng lại (closed) để chỉnh sửa>
 6. Depend upon abstractions. Do not depend upon concrete classes <br>
 <Phụ thuộc vào abstraction, không phụ thuộc vào các class rời rạc>
-   
+7. Talk only to your immediate friends
+<Chỉ kết nối với các class cần thiết>
+
 #Note
 1. Open for extension but closed for modification. <br>
 
